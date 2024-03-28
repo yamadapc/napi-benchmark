@@ -67,7 +67,7 @@ struct RustVec {
 
 impl Drop for RustVec {
     fn drop(&mut self) {
-        println!("Drop RustMap");
+        println!("Drop RustVec");
     }
 }
 
